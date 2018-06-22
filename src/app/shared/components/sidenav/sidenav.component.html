@@ -1,0 +1,29 @@
+<mat-sidenav-container class="sidenav-wrapper">
+  <mat-sidenav #sidenav class="example-sidenav"
+    mode="side"
+    opened="true"
+    fixedInViewport="true"
+    fixedTopGap="58"
+    fixedBottomGap="0">
+
+    <div class="nav-wrapper w-100">
+      <div class="nav-label">
+        <label>Menú</label>
+      </div>
+      <ul class="nav-container">
+        <li>
+          <a href="#" class="d-flex align-items-center">
+            <mat-icon class="nav-icon">home</mat-icon>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">Dashboard</a>
+        </li>
+      </ul>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content class="sidenav-container">
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>

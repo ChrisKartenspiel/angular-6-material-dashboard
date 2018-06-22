@@ -1,0 +1,12 @@
+.main-wrapper {
+  min-height: 100%;
+}
+
+.content-wrapper, .dashboard-content {
+  padding-top:58px;
+  min-height: calc(100vh - 58px);
+}
+
+.dashboard-content {
+  padding-top: 0px;
+}
